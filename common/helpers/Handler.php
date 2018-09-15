@@ -79,7 +79,7 @@ class Handler{
 				self::add($text, 1, $full_info);
 			}
 		}catch(\Exception $e){
-			self::addCatch($e);
+			self::addException($e);
 		}
 	}
 	
@@ -94,7 +94,7 @@ class Handler{
 				self::add($text, 2, $full_info);
 			}
 		}catch(\Exception $e){
-			self::addCatch($e);
+			self::addException($e);
 		}
 	}
 	
@@ -109,7 +109,7 @@ class Handler{
 				self::add($text, 3, $full_info);
 			}
 		}catch(\Exception $e){
-			self::addCatch($e);
+			self::addException($e);
 		}
 	}
 	
@@ -127,7 +127,7 @@ class Handler{
 					          ], 4, $full_info);
 				}
 			}catch(\Exception $e){
-				self::addCatch($e);
+				self::addException($e);
 			}
 	}
 }

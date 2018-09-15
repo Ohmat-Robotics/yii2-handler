@@ -9,6 +9,7 @@ return [
 		'cache'    => [
 			'class' => 'yii\caching\FileCache' ,
 		] ,
+		// Handling all errors on product version in admin backend!!!
 		'response' => [
 			'class'         => 'yii\web\Response' ,
 			'on beforeSend' => function($event = false){
