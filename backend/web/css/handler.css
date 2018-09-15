@@ -1,0 +1,27 @@
+.handler-table table {
+	border-collapse: collapse;
+	border: 0px;
+	}
+.handler-table td, .handler-table td, .handler-table th {
+	border: 0px !important;
+	}
+.handler {
+	padding: 20px;
+	}
+
+.handlerText {
+	background-color: #c9d7f1;
+	}
+
+.handlerMessage {
+	background-color: #99ee99;
+	}
+
+.handlerError {
+	background-color: #dca7a7;
+	}
+
+.handlerException {
+	background-color: #0d3349;
+	color: #ffffff;
+	}
